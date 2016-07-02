@@ -15,6 +15,10 @@ export const FS = {
     throw new Error('Not implemented');
   },
 
+  getFolderPath(p) {
+    throw new Error('Not implemented');
+  },
+
   join(firstSegment, secondSegment) {
     throw new Error('Not implemented');
   },

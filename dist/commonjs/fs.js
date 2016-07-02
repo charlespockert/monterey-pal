@@ -16,6 +16,9 @@ var FS = exports.FS = {
   getDirName: function getDirName(p) {
     throw new Error('Not implemented');
   },
+  getFolderPath: function getFolderPath(p) {
+    throw new Error('Not implemented');
+  },
   join: function join(firstSegment, secondSegment) {
     throw new Error('Not implemented');
   },
