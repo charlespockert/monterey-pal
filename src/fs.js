@@ -19,7 +19,7 @@ export const FS = {
     throw new Error('Not implemented');
   },
 
-  join(firstSegment, secondSegment) {
+  join(...segments) {
     throw new Error('Not implemented');
   },
 

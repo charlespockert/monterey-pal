@@ -19,7 +19,7 @@ var FS = exports.FS = {
   getFolderPath: function getFolderPath(p) {
     throw new Error('Not implemented');
   },
-  join: function join(firstSegment, secondSegment) {
+  join: function join() {
     throw new Error('Not implemented');
   },
   getTempFile: function getTempFile() {
