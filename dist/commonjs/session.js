@@ -12,5 +12,8 @@ var SESSION = exports.SESSION = {
   },
   clear: function clear() {
     throw new Error('Not implemented');
+  },
+  has: function has(key) {
+    throw new Error('Not implemented');
   }
 };

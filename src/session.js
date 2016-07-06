@@ -10,5 +10,9 @@ export const SESSION = {
 
   clear() {
     throw new Error('Not implemented');
+  },
+
+  has(key) {
+    throw new Error('Not implemented');
   }
 }
