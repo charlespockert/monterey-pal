@@ -27,6 +27,10 @@ export const FS = {
     throw new Error('Not implemented');
   },
 
+  getRootDir() {
+    throw new Error('Not implemented');
+  },
+
   getTempFolder() {
     throw new Error('Not implemented');
   },

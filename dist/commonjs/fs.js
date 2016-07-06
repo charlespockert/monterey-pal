@@ -25,6 +25,9 @@ var FS = exports.FS = {
   getTempFile: function getTempFile() {
     throw new Error('Not implemented');
   },
+  getRootDir: function getRootDir() {
+    throw new Error('Not implemented');
+  },
   getTempFolder: function getTempFolder() {
     throw new Error('Not implemented');
   },
