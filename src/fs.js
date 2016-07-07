@@ -11,6 +11,10 @@ export const FS = {
     throw new Error('Not implemented');
   },
 
+  writeFile(path, content) {
+    throw new Error('Not implemented');
+  },
+
   getDirName(p) {
     throw new Error('Not implemented');
   },

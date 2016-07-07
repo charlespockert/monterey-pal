@@ -13,6 +13,9 @@ var FS = exports.FS = {
   showOpenDialog: function showOpenDialog(config) {
     throw new Error('Not implemented');
   },
+  writeFile: function writeFile(path, content) {
+    throw new Error('Not implemented');
+  },
   getDirName: function getDirName(p) {
     throw new Error('Not implemented');
   },
