@@ -13,6 +13,9 @@ var FS = exports.FS = {
   showOpenDialog: function showOpenDialog(config) {
     throw new Error('Not implemented');
   },
+  normalize: function normalize(path) {
+    throw new Error('Not implemented');
+  },
   writeFile: function writeFile(path, content) {
     throw new Error('Not implemented');
   },

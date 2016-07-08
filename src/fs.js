@@ -11,6 +11,10 @@ export const FS = {
     throw new Error('Not implemented');
   },
 
+  normalize(path) {
+    throw new Error('Not implemented');
+  },
+
   writeFile(path, content) {
     throw new Error('Not implemented');
   },
