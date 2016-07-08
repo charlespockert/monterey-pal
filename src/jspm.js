@@ -1,5 +1,8 @@
 export const JSPM = {
-  install (packages, error) {
+  install (packages, options) {
+    throw new Error('Not implemented');
+  },
+  downloadLoader(options) {
     throw new Error('Not implemented');
   }
 }
