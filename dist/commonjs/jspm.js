@@ -12,5 +12,8 @@ var JSPM = exports.JSPM = {
   },
   getConfig: function getConfig(projectPath, packageJSONPath) {
     throw new Error('Not implemented');
+  },
+  getForks: function getForks(config, options) {
+    throw new Error('Not implemented');
   }
 };

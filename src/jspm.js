@@ -7,5 +7,8 @@ export const JSPM = {
   },
   getConfig(projectPath, packageJSONPath) {
     throw new Error('Not implemented');
+  },
+  getForks(config, options) {
+    throw new Error('Not implemented');
   }
 }
